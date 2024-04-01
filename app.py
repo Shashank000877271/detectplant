@@ -1,6 +1,4 @@
-import streamlit as st
-import tensorflow as tf
-import numpy as np
+
 # Define paths to the model and label files
 MODEL_PATH = "keras_new_model.h5"
 LABEL_PATH = "labelss.txt"
