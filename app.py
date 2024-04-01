@@ -1,4 +1,4 @@
-
+import streamlit as st
 # Define paths to the model and label files
 MODEL_PATH = "keras_new_model.h5"
 LABEL_PATH = "labelss.txt"
@@ -22,7 +22,7 @@ def predict(image, model, labels):
     return predicted_label, confidence
 # Main function to run the Streamlit app
 def main():
-    title("Image Classification")
+    st title("Image Classification")
 
     # Load model and labels
     model, labels = load_model_and_labels()
@@ -43,6 +43,4 @@ def main():
 
         st.write("Prediction:", predicted_label)
         st.write("Confidence:", confidence)
-# Run the main function
-if __name__ == "__main__":
-    main()
+# Run the main functi
