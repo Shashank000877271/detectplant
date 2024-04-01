@@ -2,14 +2,13 @@
 # coding: utf-8
 
 # In[1]:
-import tensorflow as tf
 import streamlit as st
-# from keras.models import load_model
+import tensorflow as tf
 from PIL import Image, ImageOps
 import numpy as np
 
 
-# In[2]:
+
 
 
 # Load the model
