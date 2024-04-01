@@ -3,9 +3,8 @@
 
 # In[1]:
 import tensorflow as tf
-import keras
 import streamlit as st
-from keras.models import load_model
+# from keras.models import load_model
 from PIL import Image, ImageOps
 import numpy as np
 
@@ -14,7 +13,7 @@ import numpy as np
 
 
 # Load the model
-model = load_model('keras_new_model.h5', compile=False)
+model = tf.keras.models.load_model('keras_new_model.h5', compile=False)
 
 
 # In[3]:
