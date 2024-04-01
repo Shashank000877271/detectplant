@@ -22,7 +22,7 @@ def predict(image, model, labels):
     return predicted_label, confidence
 # Main function to run the Streamlit app
 def main():
-    st.title("Image Classification")
+    title("Image Classification")
 
     # Load model and labels
     model, labels = load_model_and_labels()
