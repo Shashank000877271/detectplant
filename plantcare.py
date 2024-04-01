@@ -2,8 +2,8 @@
 # coding: utf-8
 
 # In[1]:
-
-pip install keras
+import tensorflow as tf
+import keras
 import streamlit as st
 from keras.models import load_model
 from PIL import Image, ImageOps
