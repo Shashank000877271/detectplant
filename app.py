@@ -45,8 +45,6 @@ def main():
 
         st.write("Prediction:", predicted_label)
         st.write("Confidence:", confidence)
-
+# Run the main function
 if __name__ == "__main__":
     main()
-
-    
